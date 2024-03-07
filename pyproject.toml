@@ -3,7 +3,6 @@ name = "django-tutorial"
 version = "0.1.0"
 description = ""
 authors = ["Mahfoud R. <mahfoud_202@proton.me>"]
-license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
