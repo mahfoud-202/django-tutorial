@@ -22,3 +22,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poe.tasks]
 runserver = "python manage.py runserver"
+pre-commit-install = "pre-commit install"
+pre-commit = "pre-commit run --all-files"
