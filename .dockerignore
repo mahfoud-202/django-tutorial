@@ -6,7 +6,11 @@
 .gitignore
 
 Dockerfile
-README.md
+compose.yaml
+
+*.md
 
 __pycache__
 db.sqlite3
+
+.python-version
