@@ -12,9 +12,15 @@ django = "5.0.3"
 [tool.poetry.group.dev.dependencies]
 poethepoet = "0.25.0"
 
+black = "24.2.0"
+isort = "5.13.2"
+pre-commit = "3.6.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poe.tasks]
 runserver = "python manage.py runserver"
+pre-commit-install = "pre-commit install"
+pre-commit = "pre-commit run --all-files"
