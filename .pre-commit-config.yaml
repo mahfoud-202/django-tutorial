@@ -18,7 +18,7 @@ repos:
         language_version: python3.12
 
 -   repo: https://github.com/pycqa/isort
-    rev: 5.13.2 
+    rev: 5.13.2
     hooks:
-    -   id: isort 
+    -   id: isort
         name: isort (python)

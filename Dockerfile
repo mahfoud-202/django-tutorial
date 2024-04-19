@@ -25,7 +25,7 @@ ENV POETRY_NO_INTERACTION=1
 # prepend poetry to path
 ENV PATH="$POETRY_HOME/bin:$PATH"
 
-# update and upgrade packages install curl without recommended packages 
+# update and upgrade packages install curl without recommended packages
 # and clean up apt cache
 RUN apt-get update \
     && apt-get -y upgrade \
