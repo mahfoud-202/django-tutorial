@@ -32,5 +32,6 @@ line_length = 99
 runserver = "python manage.py runserver"
 startapp = "python manage.py startapp"
 migrate = "python manage.py migrate"
+makemigrations = "python manage.py makemigrations"
 pre-commit-install = "pre-commit install"
 pre-commit = "pre-commit run --all-files"
