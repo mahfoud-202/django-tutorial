@@ -47,7 +47,7 @@ RUN poetry install --only main
 # copy the remaining project files to the /app directory
 COPY . .
 
-# expose port 8000 to allow communication with the django development server
+# specify that the container will listen on port 8000
 EXPOSE 8000
 
 # run the django development server
