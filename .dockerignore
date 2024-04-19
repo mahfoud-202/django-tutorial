@@ -1,0 +1,12 @@
+.playground_venv
+.testing_venv
+.venv
+
+.git
+.gitignore
+
+Dockerfile
+README.md
+
+__pycache__
+db.sqlite3
