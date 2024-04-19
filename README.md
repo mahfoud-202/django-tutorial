@@ -12,7 +12,7 @@ Follow these steps to quickly set up and run the project:
 ```bash
   cd django-tutorial
 ```
-3. **Install Python virtual environment (venv):**
+3. **Create a virtual environment:**
 ```bash
   python -m venv .venv
 ```
