@@ -31,5 +31,6 @@ line_length = 99
 [tool.poe.tasks]
 runserver = "python manage.py runserver"
 startapp = "python manage.py startapp"
+migrate = "python manage.py migrate"
 pre-commit-install = "pre-commit install"
 pre-commit = "pre-commit run --all-files"
