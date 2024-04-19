@@ -22,5 +22,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poe.tasks]
 runserver = "python manage.py runserver"
-black = "black ."
-isort = "isort ."
